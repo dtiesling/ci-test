@@ -9,4 +9,5 @@ class UnitTest(TestCase):
 
     def test_fail(self):
 
-        self.assertEqual(1, 1)
+        fail = True
+        self.assertEqual(1, 2)
